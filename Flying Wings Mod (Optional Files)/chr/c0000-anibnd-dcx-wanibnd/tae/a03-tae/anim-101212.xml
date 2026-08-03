@@ -1,0 +1,3162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<anim>
+  <name>a003_101212.hkt</name>
+  <header>
+    <type>Standard</type>
+    <allowDelayLoad>false</allowDelayLoad>
+    <importsHkx>false</importsHkx>
+    <loopByDefault>false</loopByDefault>
+    <importHkxSourceAnimId>-1</importHkxSourceAnimId>
+  </header>
+  <animGroups>
+    <animGroup>
+      <type>66</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>66</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>2.1666667</endTime>
+          <params>
+            <param name="SpEffectID" value="19998" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>0</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>0</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>0.06666667</endTime>
+          <params>
+            <param name="JumpTableID" value="7" />
+            <param name="ArgA" value="0" />
+            <param name="ArgB" value="-1" />
+            <param name="ArgC" value="6" />
+            <param name="ArgD" value="0" />
+            <param name="ArgE" value="0" />
+          </params>
+        </event>
+        <event>
+          <type>0</type>
+          <unk04>0</unk04>
+          <startTime>0.23333333</startTime>
+          <endTime>0.26666668</endTime>
+          <params>
+            <param name="JumpTableID" value="7" />
+            <param name="ArgA" value="0" />
+            <param name="ArgB" value="-1" />
+            <param name="ArgC" value="6" />
+            <param name="ArgD" value="0" />
+            <param name="ArgE" value="0" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>224</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>224</type>
+          <unk04>0</unk04>
+          <startTime>0.26666668</startTime>
+          <endTime>0.5</endTime>
+          <params>
+            <param name="TurnSpeed" value="75" />
+            <param name="IsLockOnCheck" value="false" />
+            <param name="NewUnkArg" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>224</type>
+          <unk04>0</unk04>
+          <startTime>0.5</startTime>
+          <endTime>0.6666667</endTime>
+          <params>
+            <param name="TurnSpeed" value="100" />
+            <param name="IsLockOnCheck" value="false" />
+            <param name="NewUnkArg" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>224</type>
+          <unk04>0</unk04>
+          <startTime>0.6666667</startTime>
+          <endTime>2.1666667</endTime>
+          <params>
+            <param name="TurnSpeed" value="60" />
+            <param name="IsLockOnCheck" value="false" />
+            <param name="NewUnkArg" value="1" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>224</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>224</type>
+          <unk04>0</unk04>
+          <startTime>0.76666665</startTime>
+          <endTime>2.1666667</endTime>
+          <params>
+            <param name="TurnSpeed" value="240" />
+            <param name="IsLockOnCheck" value="true" />
+            <param name="NewUnkArg" value="1" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>700</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>706</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>0.5</endTime>
+          <params>
+            <param name="TurnSpeed" value="0" />
+            <param name="Unk04" value="255" />
+          </params>
+        </event>
+        <event>
+          <type>706</type>
+          <unk04>0</unk04>
+          <startTime>0.5</startTime>
+          <endTime>0.6666667</endTime>
+          <params>
+            <param name="TurnSpeed" value="0" />
+            <param name="Unk04" value="1" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>1</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>307</type>
+          <unk04>0</unk04>
+          <startTime>0.16666667</startTime>
+          <endTime>2.1666667</endTime>
+          <params>
+            <param name="Condition0x64_GetWeaponData" value="0" />
+            <param name="Offset" value="0" />
+            <param name="PCBehaviorType" value="4" />
+            <param name="BehaviorJudgeID" value="550" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>0</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>0</type>
+          <unk04>0</unk04>
+          <startTime>0.2</startTime>
+          <endTime>0.43333334</endTime>
+          <params>
+            <param name="JumpTableID" value="131" />
+            <param name="ArgA" value="0" />
+            <param name="ArgB" value="-1" />
+            <param name="ArgC" value="6" />
+            <param name="ArgD" value="0" />
+            <param name="ArgE" value="0" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>600</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>604</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>0.2</endTime>
+          <params>
+            <param name="Unk00" value="1065353216" />
+            <param name="Unk04" value="1050253722" />
+            <param name="Unk08" value="1036831949" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>0</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>0</type>
+          <unk04>0</unk04>
+          <startTime>0.2</startTime>
+          <endTime>0.73333335</endTime>
+          <params>
+            <param name="JumpTableID" value="128" />
+            <param name="ArgA" value="0" />
+            <param name="ArgB" value="-1" />
+            <param name="ArgC" value="6" />
+            <param name="ArgD" value="0" />
+            <param name="ArgE" value="0" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>0</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>0</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>0.73333335</endTime>
+          <params>
+            <param name="JumpTableID" value="27" />
+            <param name="ArgA" value="0" />
+            <param name="ArgB" value="-1" />
+            <param name="ArgC" value="6" />
+            <param name="ArgD" value="0" />
+            <param name="ArgE" value="0" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>0</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>0</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>2.1666667</endTime>
+          <params>
+            <param name="JumpTableID" value="51" />
+            <param name="ArgA" value="0" />
+            <param name="ArgB" value="-1" />
+            <param name="ArgC" value="6" />
+            <param name="ArgD" value="0" />
+            <param name="ArgE" value="0" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>66</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>66</type>
+          <unk04>0</unk04>
+          <startTime>0.56666666</startTime>
+          <endTime>2.1666667</endTime>
+          <params>
+            <param name="SpEffectID" value="98" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>0</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>320</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>0.73333335</endTime>
+          <params>
+            <param name="EnableAct_R1_R2_LightKick_HeavyKick" value="true" />
+            <param name="EnableAct_L1_L2" value="true" />
+            <param name="EnableAct_Guard" value="false" />
+            <param name="EnableAct_SpMove_Backstep_Rolling_Jump" value="false" />
+            <param name="EnableAct_UseItem" value="false" />
+            <param name="EnableAct_MagicR_MagicL" value="false" />
+            <param name="EnableAct_ChangeStyle_ChangeStyleLeft_ChangeWeaponR_ChangeWeaponL_Gesture" value="false" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>0</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>0</type>
+          <unk04>0</unk04>
+          <startTime>0.73333335</startTime>
+          <endTime>1.9</endTime>
+          <params>
+            <param name="JumpTableID" value="87" />
+            <param name="ArgA" value="0" />
+            <param name="ArgB" value="-1" />
+            <param name="ArgC" value="6" />
+            <param name="ArgD" value="0" />
+            <param name="ArgE" value="0" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>0</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>0</type>
+          <unk04>0</unk04>
+          <startTime>0.2</startTime>
+          <endTime>2.1666667</endTime>
+          <params>
+            <param name="JumpTableID" value="4" />
+            <param name="ArgA" value="0" />
+            <param name="ArgB" value="-1" />
+            <param name="ArgC" value="6" />
+            <param name="ArgD" value="0" />
+            <param name="ArgE" value="0" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>0</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>0</type>
+          <unk04>0</unk04>
+          <startTime>0.2</startTime>
+          <endTime>2.1666667</endTime>
+          <params>
+            <param name="JumpTableID" value="117" />
+            <param name="ArgA" value="0" />
+            <param name="ArgB" value="-1" />
+            <param name="ArgC" value="6" />
+            <param name="ArgD" value="0" />
+            <param name="ArgE" value="0" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>66</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>66</type>
+          <unk04>0</unk04>
+          <startTime>0.2</startTime>
+          <endTime>2.1666667</endTime>
+          <params>
+            <param name="SpEffectID" value="89" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>225</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>225</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>2.1666667</endTime>
+          <params>
+            <param name="RegenRatePercent" value="0" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>66</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>66</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>0.56666666</endTime>
+          <params>
+            <param name="SpEffectID" value="140" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>0</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>0</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>2.1666667</endTime>
+          <params>
+            <param name="JumpTableID" value="132" />
+            <param name="ArgA" value="0" />
+            <param name="ArgB" value="-1" />
+            <param name="ArgC" value="6" />
+            <param name="ArgD" value="0" />
+            <param name="ArgE" value="0" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>66</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>66</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>0.6666667</endTime>
+          <params>
+            <param name="SpEffectID" value="145" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>760</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>761</type>
+          <unk04>0</unk04>
+          <startTime>0.2</startTime>
+          <endTime>0.73333335</endTime>
+          <params />
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>66</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>66</type>
+          <unk04>0</unk04>
+          <startTime>0.56666666</startTime>
+          <endTime>2.1666667</endTime>
+          <params>
+            <param name="SpEffectID" value="32" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>900</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>900</type>
+          <unk04>0</unk04>
+          <startTime>0.16666667</startTime>
+          <endTime>0.2</endTime>
+          <params>
+            <param name="Enabled" value="0" />
+            <param name="Unk" value="0" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>900</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>901</type>
+          <unk04>0</unk04>
+          <startTime>0.06666667</startTime>
+          <endTime>0.1</endTime>
+          <params>
+            <param name="Enabled" value="0" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>16</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>16</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>0.23333333</endTime>
+          <params />
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>0</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>0</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>100</endTime>
+          <params>
+            <param name="JumpTableID" value="28" />
+            <param name="ArgA" value="0" />
+            <param name="ArgB" value="-1" />
+            <param name="ArgC" value="6" />
+            <param name="ArgD" value="0" />
+            <param name="ArgE" value="0" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>605</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>605</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>100</endTime>
+          <params>
+            <param name="IsFemaleAnim" value="false" />
+            <param name="AnimID" value="12" />
+            <param name="AnimWeightAtEventStart" value="1" />
+            <param name="AnimWeightAtEventEnd" value="1" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>900</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>902</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>0.06666667</endTime>
+          <params>
+            <param name="RideStateAgain?" value="0" />
+            <param name="RideUnk" value="520" />
+            <param name="RideState" value="0" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>900</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>902</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>0.06666667</endTime>
+          <params>
+            <param name="RideStateAgain?" value="1" />
+            <param name="RideUnk" value="521" />
+            <param name="RideState" value="1" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>900</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>902</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>0.06666667</endTime>
+          <params>
+            <param name="RideStateAgain?" value="2" />
+            <param name="RideUnk" value="522" />
+            <param name="RideState" value="2" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+    <animGroup>
+      <type>0</type>
+      <dataType>GroupData0</dataType>
+      <area>0</area>
+      <block>0</block>
+      <cutsceneEntityType>Character</cutsceneEntityType>
+      <cutsceneEntityId1>0</cutsceneEntityId1>
+      <cutsceneEntityId2>0</cutsceneEntityId2>
+      <events>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>0</startTime>
+          <endTime>1</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>1</startTime>
+          <endTime>2</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>2</startTime>
+          <endTime>3</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>3</startTime>
+          <endTime>4</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>4</startTime>
+          <endTime>5</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>5</startTime>
+          <endTime>6</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>6</startTime>
+          <endTime>7</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>7</startTime>
+          <endTime>8</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>8</startTime>
+          <endTime>9</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>9</startTime>
+          <endTime>10</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>10</startTime>
+          <endTime>11</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>11</startTime>
+          <endTime>12</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>12</startTime>
+          <endTime>13</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>13</startTime>
+          <endTime>14</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>14</startTime>
+          <endTime>15</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>15</startTime>
+          <endTime>16</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>16</startTime>
+          <endTime>17</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>17</startTime>
+          <endTime>18</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>18</startTime>
+          <endTime>19</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>19</startTime>
+          <endTime>20</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>20</startTime>
+          <endTime>21</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>21</startTime>
+          <endTime>22</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>22</startTime>
+          <endTime>23</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>23</startTime>
+          <endTime>24</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>24</startTime>
+          <endTime>25</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>25</startTime>
+          <endTime>26</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>26</startTime>
+          <endTime>27</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>27</startTime>
+          <endTime>28</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>28</startTime>
+          <endTime>29</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>29</startTime>
+          <endTime>30</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>30</startTime>
+          <endTime>31</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>31</startTime>
+          <endTime>32</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>32</startTime>
+          <endTime>33</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>33</startTime>
+          <endTime>34</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>34</startTime>
+          <endTime>35</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>35</startTime>
+          <endTime>36</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>36</startTime>
+          <endTime>37</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>37</startTime>
+          <endTime>38</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>38</startTime>
+          <endTime>39</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>39</startTime>
+          <endTime>40</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>40</startTime>
+          <endTime>41</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>41</startTime>
+          <endTime>42</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>42</startTime>
+          <endTime>43</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>43</startTime>
+          <endTime>44</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>44</startTime>
+          <endTime>45</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>45</startTime>
+          <endTime>46</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>46</startTime>
+          <endTime>47</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>47</startTime>
+          <endTime>48</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>48</startTime>
+          <endTime>49</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>49</startTime>
+          <endTime>50</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>50</startTime>
+          <endTime>51</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>51</startTime>
+          <endTime>52</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>52</startTime>
+          <endTime>53</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>53</startTime>
+          <endTime>54</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>54</startTime>
+          <endTime>55</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>55</startTime>
+          <endTime>56</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>56</startTime>
+          <endTime>57</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>57</startTime>
+          <endTime>58</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>58</startTime>
+          <endTime>59</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>59</startTime>
+          <endTime>60</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>60</startTime>
+          <endTime>61</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>61</startTime>
+          <endTime>62</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>62</startTime>
+          <endTime>63</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>63</startTime>
+          <endTime>64</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>64</startTime>
+          <endTime>65</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>65</startTime>
+          <endTime>66</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>66</startTime>
+          <endTime>67</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>67</startTime>
+          <endTime>68</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>68</startTime>
+          <endTime>69</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>69</startTime>
+          <endTime>70</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>70</startTime>
+          <endTime>71</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>71</startTime>
+          <endTime>72</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>72</startTime>
+          <endTime>73</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>73</startTime>
+          <endTime>74</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>74</startTime>
+          <endTime>75</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>75</startTime>
+          <endTime>76</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>76</startTime>
+          <endTime>77</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>77</startTime>
+          <endTime>78</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>78</startTime>
+          <endTime>79</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>79</startTime>
+          <endTime>80</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>80</startTime>
+          <endTime>81</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>81</startTime>
+          <endTime>82</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>82</startTime>
+          <endTime>83</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>83</startTime>
+          <endTime>84</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>84</startTime>
+          <endTime>85</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>85</startTime>
+          <endTime>86</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>86</startTime>
+          <endTime>87</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>87</startTime>
+          <endTime>88</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>88</startTime>
+          <endTime>89</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>89</startTime>
+          <endTime>90</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>90</startTime>
+          <endTime>91</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>91</startTime>
+          <endTime>92</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>92</startTime>
+          <endTime>93</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>93</startTime>
+          <endTime>94</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>94</startTime>
+          <endTime>95</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>95</startTime>
+          <endTime>96</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>96</startTime>
+          <endTime>97</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>97</startTime>
+          <endTime>98</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>98</startTime>
+          <endTime>99</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+        <event>
+          <type>198</type>
+          <unk04>0</unk04>
+          <startTime>99</startTime>
+          <endTime>100</endTime>
+          <params>
+            <param name="Unk00" value="0" />
+            <param name="Unk04" value="1011" />
+            <param name="Unk08" value="1065353216" />
+            <param name="Unk0C" value="1065353216" />
+            <param name="Unk10" value="1065353216" />
+            <param name="Unk14" value="1065353216" />
+            <param name="Unk18" value="1065353216" />
+            <param name="Unk1C" value="1065353216" />
+            <param name="Unk20" value="1036831949" />
+            <param name="Unk24" value="0" />
+            <param name="Unk28" value="0" />
+            <param name="Unk2C" value="0" />
+            <param name="Unk30" value="0" />
+            <param name="Unk34" value="1065353216" />
+            <param name="Unk38" value="0" />
+            <param name="Unk3C" value="1" />
+          </params>
+        </event>
+      </events>
+    </animGroup>
+  </animGroups>
+</anim>
