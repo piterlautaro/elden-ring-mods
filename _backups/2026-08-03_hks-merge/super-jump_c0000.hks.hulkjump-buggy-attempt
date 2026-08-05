@@ -4,10 +4,8 @@
 g_MoveMovementMultiplier = 1.0          -- 1.0 is normal movement speed, 2.0 would be 100% faster.
 g_RollMovementMultiplier = 2.0         -- 1.0 is normal roll distance, 2.0 would be 100% further.
 g_BackstepMovementMultiplier = 2.0     -- 1.0 is normal backstep distance, 2.0 would be 100% further.
-g_NormalJumpMultiplier = 2.0           -- Your regular tap-jump (no L1), used in and out of combat.
-g_JumpMovementMultiplier = 8.0         -- Hulk Jump: scale on top of the forced long-jump animation (see JumpMoveLevel override below).
-                                        -- Only applies while holding Guard (L1) when you press Jump, and only during the ascent (falling is normal-speed).
-HulkJumpActive = 0                     -- Plain Lua flag (not a game engine variable) set per-jump in ExecJump(), read in Act_Jump().
+g_JumpMovementMultiplier = 6.0         -- Hulk Jump: 1.0 is normal jump height, 6.0 is a dramatic superhero leap.
+                                        -- Only applies while holding Guard (L1) when you press Jump; a normal tap-jump is untouched (for combat).
 
 ------------------------------------------
 -- Core: Functions
@@ -4049,11 +4047,11 @@ function ExecJump()
     end
 
     -- Hulk Jump: holding Guard (L1) at the moment Jump is pressed flags this jump as a big one.
-    -- Plain Lua global, not a game engine SetVariable, so it can't collide with internal state.
+    -- A plain tap of Jump (no L1 held) leaves HulkJumpActive at 0, so combat jumps stay vanilla-sized.
     if env(ActionDuration, ACTION_ARM_L1) > 0 then
-        HulkJumpActive = 1
+        SetVariable("HulkJumpActive", 1)
     else
-        HulkJumpActive = 0
+        SetVariable("HulkJumpActive", 0)
     end
     if env(GetStamina) <= 0 and env(Unknown700) == FALSE then
         ResetRequest()
@@ -4136,12 +4134,6 @@ function ExecJump()
         -- Unknown (DLC)
     elseif env(GetSpEffectID, 19670) == TRUE then
         JumpMoveLevel = 0
-    end
-
-    -- Hulk Jump: always use the running/dash jump (W_Jump_D), which travels the farthest
-    -- by design, regardless of whether you're actually sprinting when you press Jump.
-    if HulkJumpActive == 1 then
-        JumpMoveLevel = 2
     end
 
     if JumpMoveLevel == 2 then
@@ -23224,12 +23216,10 @@ function Act_Jump()
 
     local damage_type = env(GetReceivedDamageType)
 
-    if HulkJumpActive == 1 and env(IsFalling) == FALSE then
-        -- Still ascending/launching: apply the big Hulk scale for height and distance.
+    if GetVariable("HulkJumpActive") == 1 then
         act(SetMovementScaleMult, g_JumpMovementMultiplier)
     else
-        -- Either a normal jump, or a Hulk jump that has started falling: normal-speed descent.
-        act(SetMovementScaleMult, g_NormalJumpMultiplier)
+        act(SetMovementScaleMult, 1.0)
     end
 
     if damage_type == DAMAGE_TYPE_DEATH_FALLING then
