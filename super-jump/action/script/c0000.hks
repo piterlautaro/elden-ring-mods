@@ -5,8 +5,9 @@ g_MoveMovementMultiplier = 1.0          -- 1.0 is normal movement speed, 2.0 wou
 g_RollMovementMultiplier = 2.0         -- 1.0 is normal roll distance, 2.0 would be 100% further.
 g_BackstepMovementMultiplier = 2.0     -- 1.0 is normal backstep distance, 2.0 would be 100% further.
 g_NormalJumpMultiplier = 2.0           -- Your regular tap-jump (no L1), used in and out of combat.
-g_JumpMovementMultiplier = 8.0         -- Hulk Jump: scale on top of the forced long-jump animation (see JumpMoveLevel override below).
-                                        -- Only applies while holding Guard (L1) when you press Jump, and only during the ascent (falling is normal-speed).
+g_JumpMovementMultiplier = 12.0        -- Hulk Jump ascent: scale on top of the forced long-jump animation (see JumpMoveLevel override below).
+g_HulkFallMultiplier = 0.3             -- Hulk Jump descent: slow-motion float down to enjoy the view. 1.0 = normal fall speed, lower = slower.
+                                        -- Both only apply while holding Guard (L1) when you press Jump.
 HulkJumpActive = 0                     -- Plain Lua flag (not a game engine variable) set per-jump in ExecJump(), read in Act_Jump().
 
 ------------------------------------------
@@ -23227,8 +23228,11 @@ function Act_Jump()
     if HulkJumpActive == 1 and env(IsFalling) == FALSE then
         -- Still ascending/launching: apply the big Hulk scale for height and distance.
         act(SetMovementScaleMult, g_JumpMovementMultiplier)
+    elseif HulkJumpActive == 1 and env(IsFalling) == TRUE then
+        -- Hulk jump, now falling: slow-motion float down.
+        act(SetMovementScaleMult, g_HulkFallMultiplier)
     else
-        -- Either a normal jump, or a Hulk jump that has started falling: normal-speed descent.
+        -- Normal jump: unaffected, same speed up and down.
         act(SetMovementScaleMult, g_NormalJumpMultiplier)
     end
 
